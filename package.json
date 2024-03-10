@@ -1,0 +1,16 @@
+{
+  "name": "moviesapp",
+  "version": "1.0.0",
+  "description": "",
+  "type":"module",
+  "main": "index.js",
+  "scripts": {
+    "fullstack":"concurrently \"npm run backend\" \"npm run frontend\" ",
+    "frontend": "cd movie-frontend && npm run dev",
+    "backend": "nodemon movie-backend/index.js"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
