@@ -6,8 +6,9 @@
   "main": "index.js",
   "scripts": {
     "fullstack":"concurrently \"npm run backend\" \"npm run frontend\" ",
-    "frontend": "cd movie-frontend && npm run dev",
-    "backend": "nodemon movie-backend/index.js"
+    "backend": "nodemon movie-backend/index.js",
+    "frontend": "cd movie-frontend && npm run dev"
+    
 
   },
   "keywords": [],
