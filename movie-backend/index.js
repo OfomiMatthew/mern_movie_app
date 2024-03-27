@@ -16,6 +16,8 @@ app.use(cookieParser());
 
 const PORT = process.env.PORT || 3000;
 
+app.use('/api/v1/users',userRoutes)
+
 app.listen(PORT, () => {
   console.log(`server running on port ${PORT}`);
 });
